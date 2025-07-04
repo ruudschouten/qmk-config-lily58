@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * |BackSP|  A   |  R $ |  S ⎈ |  T ⇧ |   G  |-------.    ,-------|  M   |  N ⇧ |  E ⎈ |  I $ |  O   |   '  |
  * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
- * |Delete|   Z  |   X  |   C  |   D  |   V  |-------|    |-------|   K  |   H  |  ,   |   .  |   /  |  Tab |
+ * | Alt  |   Z  |   X  |   C  |   D  |   V  |-------|    |-------|   K  |   H  |  ,   |   .  |   /  |  Alt |
  * `-----------------------------------------/       /     \      \-----------------------------------------'
  *                   |Enter | LGUI |LOWER | /Space  /       \Enter \  |RAISE |BackSP|Delete|
  *                   |      |      |      |/       /         \      \ |      |      |      |
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                      KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_EQL,
     KC_TAB,  KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,                      KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_MINS,
     KC_BSPC, KC_A,    SYMB_R,  HOME_S,  HOME_T,  KC_G,                      KC_M,    HOME_N,  HOME_E,  SYMB_I,  KC_O,    KC_QUOT,
-    KC_DEL,  KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,    KC_LBRC, KC_RBRC, KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH, KC_TAB,
+    KC_LALT, KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,    KC_LBRC, KC_RBRC, KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH, KC_LALT,
                                KC_ENT,  KC_LGUI, MO(3),   KC_SPC,  KC_ENT,  MO(2),   KC_BSPC, KC_DEL
     ),
 /* SYMBOL
